@@ -36,9 +36,19 @@ public class ShortestPathActivity extends AppCompatActivity {
         //Collector ID
         String CollectorID = "Collector ID: ";
         ////In next version the ID should get from database.
-        CollectorID += "1256";
+        CollectorID += "12567";
         textView = findViewById(R.id.textView_collectorID);
         textView.setText(CollectorID);
+
+        //updated
+        //Collector name
+        String CollectorName = "";
+        ////In next version the ID should get from database.
+        CollectorName += "Ahmed mohamed";
+        textView = findViewById(R.id.textView_collectorName);
+        textView.setText(CollectorName);
+
+
 
 
         //stores that assigned to collector
